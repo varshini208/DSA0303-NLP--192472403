@@ -1,0 +1,5 @@
+import re
+text = input("Enter a paragrapg: ")
+words = re.findall(r'\b\w+ing\b', text)
+print("words ending with 'ing':")
+print(words)
